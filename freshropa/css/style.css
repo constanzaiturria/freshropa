@@ -33,6 +33,14 @@ footer {
     padding: 20px; 
     top: 100%;
     position: sticky;
+    background-color: beige;
+
+
+}
+
+footer h2 {
+   display: flex;
+   justify-content: center;
 
 }
 
@@ -88,8 +96,9 @@ footer {
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
+    
+}  
 
-}
 
 .div_productos li {
     list-style: none;
@@ -110,4 +119,17 @@ footer {
 
 .div_productos_imagenes {
     display: flex;
+}
+
+.div_caja1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+footer a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
 }
