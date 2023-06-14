@@ -1,0 +1,113 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(187, 187, 187);
+}
+
+.header_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_imagen {
+    width: 70px;
+    height: 70px;
+}
+
+body {
+    min-height: 100vh;
+    background-color: red;
+    color: aliceblue;
+    font-size: 15px;
+
+}
+
+footer {
+    padding: 20px; 
+    top: 100%;
+    position: sticky;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    padding-right: 15px;
+
+}
+
+.nav_a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.section_registro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_registro  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.form_registro  {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: auto;
+    height: 50%;
+    flex-direction: column;
+    padding: 50px;
+    border: 5px solid black;
+}
+
+.section_productos {
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+
+.div_productos {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.div_productos li {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section_product_imgs{
+    display: grid;
+    place-items: center;
+}
+
+.product_imagenes{
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+}
+
+.div_productos_imagenes {
+    display: flex;
+}
